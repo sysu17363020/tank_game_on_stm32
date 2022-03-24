@@ -1,13 +1,16 @@
 # Tank Game on STM32
+An editable tank battle game designed for STM32 platform.
 
-An editable tank battle game designed for STM32 platform. It supports up to two players and the players are allowed to devise their own game maps.
+It supports up to two players and the players are allowed to devise their own game maps.
 
 
 ## System Overview
 The operating system of the game is UCOS Ⅱ, which is an open source OS designed for microcomputer. An *overview of the game* is shown below.
-![overview](./overview.png)
+<div align=center>
+<img src="./overview.png"/>
+</div>
 
-The game includes two gaming modes (single-player / two-player) and a map-editing mode. In the gaming mode, The players can use either buttons or IR remote controller to control their tanks. In the map-editing mode, users can devise their own game maps by drawing on the LCD screen.
+The game includes two gaming modes (single-player / multi-player) and a map-editing mode. In the gaming mode, the players can use either buttons or IR remote controller to control their tanks. In the map-editing mode, users can devise their own game maps by drawing on the LCD screen.
 
 ## Hardware Requirements
 
@@ -18,7 +21,11 @@ The game includes two gaming modes (single-player / two-player) and a map-editin
 - 2.8" TFT LCD screen
 
 *The Electric Schematic Diagram* of the hardware is as follows.
-![schematic diagram](./hardware.png)
+<div align=center>
+<img src="./hardware.png"/>
+</div>
 
 ## Main Logic of the Game
-![overview](./game_logic.png#pic_center)
+<div align=center>
+<img src="./game_logic.png"/>
+</div>
